@@ -9,6 +9,7 @@ jobs:
     steps:
       - checkout
 
+workflows:
   main:
     jobs:
       - build-and-test
