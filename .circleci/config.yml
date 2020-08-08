@@ -8,6 +8,15 @@ jobs:
     executor: python/default
     steps:
       - checkout
+<<<<<<< HEAD
+=======
+      - python/load-cache
+      - python/install-deps
+      - python/save-cache
+      - run:
+          command: ./manage.py test
+          name: Test
+>>>>>>> 3718559e3c50ae5f63cc0ebdaf4b541303720341
 
 workflows:
   main:
