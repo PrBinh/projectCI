@@ -8,7 +8,7 @@ jobs:
     executor: python/default
     steps:
       - checkout
-      - python print("testing")
+      - python print("testing") run
 
 workflows:
   main:
