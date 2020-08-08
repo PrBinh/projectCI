@@ -8,7 +8,7 @@ jobs:
     executor: python/default
     steps:
       - checkout
-      - echo "test auto when have commit"
+      - echo 'test auto when have commit'
 
 workflows:
   main:
